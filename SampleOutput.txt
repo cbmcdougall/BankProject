@@ -1,0 +1,471 @@
+************** Bank of Holding **************
+::Login Page::
+Username (press ENTER to cancel): system
+Password: manager
+
+:::Main menu:::
+1. Customers
+2. Accounts
+3. Funds Transfer
+4. Account Statement
+0. Exit
+Enter choice: 1
+
+:::Customers Menu:::
+1. Add Customer
+2. Update Customer
+3. Delete Customer
+4. Search Customers
+5. View Customers
+0. Back to Main Menu
+Enter choice: 1
+
+****** ADD CUSTOMER ******
+Customer Name: Calum
+Address: abc
+Landmark: def
+City: ghi
+Country: jkl
+Mobile Number: 9999999999
+Customer 1001 Added.
+
+:::Customers Menu:::
+1. Add Customer
+2. Update Customer
+3. Delete Customer
+4. Search Customers
+5. View Customers
+0. Back to Main Menu
+Enter choice: 1
+
+****** ADD CUSTOMER ******
+Customer Name: Temporary Customer
+Address: mno
+Landmark: pqr
+City: stu
+Country: vwx
+Mobile Number: 1234567890
+Customer 1002 Added.
+
+:::Customers Menu:::
+1. Add Customer
+2. Update Customer
+3. Delete Customer
+4. Search Customers
+5. View Customers
+0. Back to Main Menu
+Enter choice: 5
+
+****** ALL CUSTOMERS ******
+Customer Code: 1001
+Customer Name: Calum
+Address: abc
+Landmark: def
+City: ghi
+Country: jkl
+Mobile: 9999999999
+
+Customer Code: 1002
+Customer Name: Temporary Customer
+Address: mno
+Landmark: pqr
+City: stu
+Country: vwx
+Mobile: 1234567890
+
+:::Customers Menu:::
+1. Add Customer
+2. Update Customer
+3. Delete Customer
+4. Search Customers
+5. View Customers
+0. Back to Main Menu
+Enter choice: 2
+
+****** ALL CUSTOMERS ******
+Customer Code: 1001
+Customer Name: Calum
+Address: abc
+Landmark: def
+City: ghi
+Country: jkl
+Mobile: 9999999999
+
+Customer Code: 1002
+Customer Name: Temporary Customer
+Address: mno
+Landmark: pqr
+City: stu
+Country: vwx
+Mobile: 1234567890
+
+Enter the Customer Code of the Customer you wish to update (0 to cancel): 1001
+
+****** NEW CUSTOMER DETAILS ******
+Customer Name: Calum McDougall
+Address: Sample Address
+Landmark: Sample Landmark
+City: Sample City
+Country: Sample Country
+Mobile Number: 8888888888
+Customer Updated.
+
+:::Customers Menu:::
+1. Add Customer
+2. Update Customer
+3. Delete Customer
+4. Search Customers
+5. View Customers
+0. Back to Main Menu
+Enter choice: 4
+
+****** SEARCH CUSTOMERS ******
+Enter a Customer Code to search for: 1001
+
+Customer Code: 1001
+Customer Name: Calum McDougall
+Address: Sample Address
+Landmark: Sample Landmark
+City: Sample City
+Country: Sample Country
+Mobile: 8888888888
+
+:::Customers Menu:::
+1. Add Customer
+2. Update Customer
+3. Delete Customer
+4. Search Customers
+5. View Customers
+0. Back to Main Menu
+Enter choice: 3
+
+****** ALL CUSTOMERS ******
+Customer Code: 1001
+Customer Name: Calum McDougall
+Address: Sample Address
+Landmark: Sample Landmark
+City: Sample City
+Country: Sample Country
+Mobile: 8888888888
+
+Customer Code: 1002
+Customer Name: Temporary Customer
+Address: mno
+Landmark: pqr
+City: stu
+Country: vwx
+Mobile: 1234567890
+
+Enter the Customer Code of the Customer you wish to delete (0 to cancel): 1002
+Customer Deleted.
+
+:::Customers Menu:::
+1. Add Customer
+2. Update Customer
+3. Delete Customer
+4. Search Customers
+5. View Customers
+0. Back to Main Menu
+Enter choice: 5
+
+****** ALL CUSTOMERS ******
+Customer Code: 1001
+Customer Name: Calum McDougall
+Address: Sample Address
+Landmark: Sample Landmark
+City: Sample City
+Country: Sample Country
+Mobile: 8888888888
+
+:::Customers Menu:::
+1. Add Customer
+2. Update Customer
+3. Delete Customer
+4. Search Customers
+5. View Customers
+0. Back to Main Menu
+Enter choice: 4
+
+****** SEARCH CUSTOMERS ******
+Enter a Customer Code to search for: 1002
+
+No Customers found.
+
+:::Customers Menu:::
+1. Add Customer
+2. Update Customer
+3. Delete Customer
+4. Search Customers
+5. View Customers
+0. Back to Main Menu
+Enter choice: 0
+
+:::Main menu:::
+1. Customers
+2. Accounts
+3. Funds Transfer
+4. Account Statement
+0. Exit
+Enter choice: 2
+
+:::Accounts Menu:::
+1. Add Account
+2. Update Account
+3. Delete Account
+4. Search Accounts
+5. View Accounts
+0. Back to Main Menu
+Enter choice: 1
+
+****** ALL CUSTOMERS ******
+Customer Code: 1001
+Customer Name: Calum McDougall
+Address: Sample Address
+Landmark: Sample Landmark
+City: Sample City
+Country: Sample Country
+Mobile: 8888888888
+
+Enter the Customer Code of the customer you wish to create an account for: 1001
+New Account added. Account Number: 10001
+
+:::Accounts Menu:::
+1. Add Account
+2. Update Account
+3. Delete Account
+4. Search Accounts
+5. View Accounts
+0. Back to Main Menu
+Enter choice: 1
+
+****** ALL CUSTOMERS ******
+Customer Code: 1001
+Customer Name: Calum McDougall
+Address: Sample Address
+Landmark: Sample Landmark
+City: Sample City
+Country: Sample Country
+Mobile: 8888888888
+
+Enter the Customer Code of the customer you wish to create an account for: 1001
+New Account added. Account Number: 10002
+
+:::Accounts Menu:::
+1. Add Account
+2. Update Account
+3. Delete Account
+4. Search Accounts
+5. View Accounts
+0. Back to Main Menu
+Enter choice: 1
+
+****** ALL CUSTOMERS ******
+Customer Code: 1001
+Customer Name: Calum McDougall
+Address: Sample Address
+Landmark: Sample Landmark
+City: Sample City
+Country: Sample Country
+Mobile: 8888888888
+
+Enter the Customer Code of the customer you wish to create an account for: 100000
+Invalid Customer Code.
+
+:::Accounts Menu:::
+1. Add Account
+2. Update Account
+3. Delete Account
+4. Search Accounts
+5. View Accounts
+0. Back to Main Menu
+Enter choice: 2
+
+****** ALL ACCOUNTS ******
+Account Number: 10001
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £0.00
+
+Account Number: 10002
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £0.00
+
+Enter the Account Number of the Account you wish to update (0 to cancel): 10001
+
+****** ALL CUSTOMERS ******
+Customer Code: 1001
+Customer Name: Calum McDougall
+Address: Sample Address
+Landmark: Sample Landmark
+City: Sample City
+Country: Sample Country
+Mobile: 8888888888
+
+Enter the updated Customer Code (press ENTER to keep the same code): 1001
+Balance: 2000
+Account Updated.
+
+:::Accounts Menu:::
+1. Add Account
+2. Update Account
+3. Delete Account
+4. Search Accounts
+5. View Accounts
+0. Back to Main Menu
+Enter choice: 4
+
+****** SEARCH ACCOUNTS ******
+Enter an Account Number to search for: 10001
+
+Account Number: 10001
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £2,000.00
+
+:::Accounts Menu:::
+1. Add Account
+2. Update Account
+3. Delete Account
+4. Search Accounts
+5. View Accounts
+0. Back to Main Menu
+Enter choice: 0
+
+:::Main menu:::
+1. Customers
+2. Accounts
+3. Funds Transfer
+4. Account Statement
+0. Exit
+Enter choice: 3
+
+****** ALL ACCOUNTS ******
+Account Number: 10001
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £2,000.00
+
+Account Number: 10002
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £0.00
+
+Enter the Source Account Number (0 to cancel): 10001
+Enter the Destination Account Number (0 to cancel): 10002
+Amount to transfer: 400
+Transaction successful.
+
+New balance for Account 10001: £1,600.00
+New balance for Account 10002: £400.00
+
+:::Main menu:::
+1. Customers
+2. Accounts
+3. Funds Transfer
+4. Account Statement
+0. Exit
+Enter choice: 3
+
+****** ALL ACCOUNTS ******
+Account Number: 10001
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £1,600.00
+
+Account Number: 10002
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £400.00
+
+Enter the Source Account Number (0 to cancel): 10002
+Enter the Destination Account Number (0 to cancel): 10001
+Amount to transfer: 50
+Transaction successful.
+
+New balance for Account 10002: £350.00
+New balance for Account 10001: £1,650.00
+
+:::Main menu:::
+1. Customers
+2. Accounts
+3. Funds Transfer
+4. Account Statement
+0. Exit
+Enter choice: 4
+
+****** ALL ACCOUNTS ******
+Account Number: 10001
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £1,650.00
+
+Account Number: 10002
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £350.00
+
+Enter the Account number to view (0 to cancel): 10001
+
+**************** STATEMENT FOR ACCOUNT 10001 ****************
+Transaction Date    Account   Money In  Money Out    Balance
+09/10/2023 15:37      10002               £400.00  £1,600.00
+09/10/2023 15:37      10002     £50.00             £1,650.00
+
+:::Main menu:::
+1. Customers
+2. Accounts
+3. Funds Transfer
+4. Account Statement
+0. Exit
+Enter choice: 4
+
+****** ALL ACCOUNTS ******
+Account Number: 10001
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £1,650.00
+
+Account Number: 10002
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £350.00
+
+Enter the Account number to view (0 to cancel): 10002
+
+**************** STATEMENT FOR ACCOUNT 10002 ****************
+Transaction Date    Account   Money In  Money Out    Balance
+09/10/2023 15:37      10001    £400.00               £400.00
+09/10/2023 15:37      10001                £50.00    £350.00
+
+:::Main menu:::
+1. Customers
+2. Accounts
+3. Funds Transfer
+4. Account Statement
+0. Exit
+Enter choice: 4
+
+****** ALL ACCOUNTS ******
+Account Number: 10001
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £1,650.00
+
+Account Number: 10002
+Customer Code: 1001
+Customer Name: Calum McDougall
+Balance: £350.00
+
+Enter the Account number to view (0 to cancel): 10000000000000
+Invalid Account code
+
+:::Main menu:::
+1. Customers
+2. Accounts
+3. Funds Transfer
+4. Account Statement
+0. Exit
+Enter choice: 0
+
+Thank you for using our services, we hope you come again!

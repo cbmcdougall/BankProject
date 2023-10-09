@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B1103DF4-2270-40B6-9CAB-E742AFDBBF61}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BankProject.BusinessLogicLayer</RootNamespace>
+    <AssemblyName>BankProject.BusinessLogicLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountsBusinessLogicLayer.cs" />
+    <Compile Include="BLLContracts\IAccountsBusinessLogicLayer.cs" />
+    <Compile Include="BLLContracts\ICustomersBusinessLogicLayer.cs" />
+    <Compile Include="CustomersBusinessLogicLayer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BankProject.Configuration\BankProject.Configuration.csproj">
+      <Project>{59fe31f5-d381-4f60-b916-70b4c2040435}</Project>
+      <Name>BankProject.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BankProject.DataAccessLayer\BankProject.DataAccessLayer.csproj">
+      <Project>{a9b4d7b3-2f8b-49f3-a671-daed676fcd3a}</Project>
+      <Name>BankProject.DataAccessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BankProject.Entities\BankProject.Entities.csproj">
+      <Project>{6772ba5c-f1c0-4187-9742-4abe6c731c3d}</Project>
+      <Name>BankProject.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BankProject.Exceptions\BankProject.Exceptions.csproj">
+      <Project>{0470da83-96dc-4b04-9380-36926dd154c9}</Project>
+      <Name>BankProject.Exceptions</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
